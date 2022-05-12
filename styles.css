@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+	font-weight: 500;
+}
+body {
+	background: black;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	/* margin: auto; */
+}
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+.title {
+	font-family: "Bitter", serif;
+	font-weight: 700;
+	flex-basis: 70%;
+}
+.logo {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+	padding: 1rem;
+	gap: 1rem;
+}
+.body-paragraph {
+	margin-bottom: 0.5rem;
+	text-align: justify;
+}
+.form > * {
+	margin-bottom: 0.5rem;
+}
+.form-input {
+	border: none;
+	border-bottom: 2px solid #7e7b7bb0;
+	outline: none;
+	transition: border 400ms ease-in-out;
+}
+.form-input:focus {
+	border-bottom: 2px solid #7e7b7b;
+}
+.postcard-footer {
+	display: flex;
+	justify-content: center;
+}
+.btn-submit {
+	padding: 0.25rem;
+	background-color: #7e7b7bb0;
+	border: none;
+	outline: none;
+	transition: background 400ms ease-in-out;
+}
+.btn-submit:focus,
+.btn-submit:hover {
+	background-color: #7e7b7b;
+}
